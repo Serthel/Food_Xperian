@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Actividad Fronted</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg bg-primary">
+      <div class="container-fluid position-relative">
+        <a class="navbar-brand" href="#">Food Xperian </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Quienes_Somos">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="True">
+                + Mas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#Servicio">Que puedes encontrar</a></li>
+                <li><a class="dropdown-item" href="#nuestro_local">Nuestro Lugar</a></li>
+                <li><a class="dropdown-item" href="#Contacto">Contactanos</a></li>
+                <li><a class="dropdown-item" href="#Ubicacion">Ubicacion</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <aside class="position-fixed fixed-left bg-primary">
+    <div class=" col-sm-0 col-md-3 col-lg-3">
+      <nav class="sidenav">
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="bi bi-house-fill"></i> Inicio</a></li>
+          <li><a href="#Quienes_Somos"><i class="bi bi-person-heart"></i> Sobre nosotros</a></li>
+          <li><a href="#Servicio"><i class="bi bi-wallet-fill"></i> Que puedes encontrar</a></li>
+          <li><a href="#nuestro_local"><i class="bi bi-caret-right-square-fill"></i> Nuestro Lugar</a></li>
+          <li><a href="#Contacto"><i class="bi bi-envelope-fill"></i> Contactanos</a></li>
+          <li><a href="#Ubicacion"><i class="bi bi-pin-map-fill"></i> Ubicacion</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <main>
+
+    <section id="logo">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-0 col-md-12 col-lg-12">
+              <img id="Logo1" src="/asset/img/Food Xperian.JPG" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Garantizamos toda una Experiencia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Quienes_Somos">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-0 col-md-7 col-lg-7">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://monitordolarvzla.com/wp-content/uploads/2021/01/restaurantes.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.viajala.com/img/blog/ternera.png?jumjXjkNEsWOw1spS2M4pxm9D1k4ZbjL"
+                      class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://i1.wp.com/www.diegocoquillat.com/wp-content/uploads/2017/09/Imagenes-de-platos-para-restaurantes.jpg"
+                      class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-0 col-md-5 col-lg-5">
+              <div class="card-body">
+                <h5 class="card-title">Sobre nosotros</h5>
+                <p>La Inspiracion de este restaurante desde el concepto de los platos,
+                  el servicio por parte de nuestro personal y nuestra instalacion esta
+                  orientado en brindar a cada uno de nuestros clientes una experiencia
+                  nueva y completa que los llenen y haga en ese momento una experiencia total</p>
+                <p><small class="text-muted"> Ve y disfruta lo que tenemos para ti</small></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Servicio">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-0 col-md-4 col-lg-4">
+              <div class="card-body">
+                <h5 class="card-title">los tipos de platos que puedes encontrar en nuestro restaurante</h5>
+                <p>En nuestro menu puedes encontrar diversos tipos de preparaciones donde
+                  nos concentramos mas que en el tipo de preparacion, en que cada una de ellas
+                  se realice desde el mas sumo respecto por el producto, respecto a la
+                  tradicion de la preparacion y buscando mas alla de la comodida conseguir el mejor sabor. </p>
+                <p><small class="text-muted"> Para ustedes lo mejor</small></p>
+              </div>
+            </div>
+            <div class="col-sm-0 col-md-8 col-lg-8">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <a>Arroces</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      src="https://th.bing.com/th/id/OIP.SEF2d-R5VW-2E2fYnV2nHQHaE8?pid=ImgDet&w=177&h=118.06941176470588&c=7"
+                      alt="" />
+                  </div>
+                  <div class="col-md-2">
+                    <a>Pastas</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.0Pq8GBtzNuqCeeqdImMcGAHaEK?pid=ImgDet&w=177&h=99.5625&c=7"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <a>Comida de Mar</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.jqLtqDJF0blBevHmZDHuUAHaFt?pid=ImgDet&w=177&h=107.439&c=7"
+                      alt="" />
+                  </div>
+                  <div class="col-md-2">
+                    <a>Ensaladas </a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.v6vWczNq_NE3Fl43VM1ktAHaE8?pid=ImgDet&w=177&h=118&c=7"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <a>Postre</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.uMWqORrZw-mNkTmdSvBG4AHaFj?pid=ImgDet&w=177&h=132.88615384615383&c=7"
+                      alt="" />
+                  </div>
+                  <div class="col-md-2">
+                    <a>Servicios Bar</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="https://th.bing.com/th/id/OIP.VRbw6BB8WKrcJqM2vIaMLgHaFj?pid=ImgDet&w=177&h=110.625&c=7"
+                      alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nuestro_local">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-0 col-md-8 col-lg-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video id="Presentacion" class="embed-responsive-item" src="/asset/video/Video_Presentacion.mp4"
+                  controls>
+                  Tu navegador no soporta el elemento de video.
+                </video>
+              </div>
+            </div>
+            <div class="col-sm-0 col-md-4 col-lg-4">
+              <div class="card-body">
+                <h5 class="card-title">Nuestro local</h5>
+                <p>Si quieres conocer un poco mas de nuestra instalacion puede reproducir
+                  el video y contemplar el espacio que creamos para usted </p>
+                <p><small class="text-muted">Hermoso verdad</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contacto">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-sm-0 col-md-7 col-lg-7">
+              <div class="card-body">
+                <h5 class="card-title">Contactanos</h5>
+                <p>Para mas informacion sobre nuestro menu o como realizar la reserva de
+                  alguna de nuestras mesas por favor diligenciar el siguiente formulario
+                  y con gusto nos contactaremos con usted para brindarle la informacion</p>
+                <p><small class="text-muted">No dudes en hacerlo</small></p>
+              </div>
+            </div>
+            <div class="col-sm-0 col-md-5 col-lg-5">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="validationDefault01">Nombres</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder=" " required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="validationDefault02">Apellidos</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder=" " required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="validationDefaultUsername">Correo</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder=" "
+                      aria-describedby="inputGroupPrepend2" required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="validationDefault03">Celular</label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder=" " required>
+                  </div>
+                  <label for="exampleFormControlTextarea1">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Aceptar condiciones manejo de datos personales
+                    </label>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="ubicacion">
+      <div class="container">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-8 col-lg-8 embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.340690622913!2d-74.06052601312615!3d4.65275132481401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a4246c975bd%3A0xeaeec5325b3956b3!2sZona%20G%2C%20Localidad%20de%20Chapinero%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1682617585088!5m2!1ses-419!2sco"
+                allowfullscreen="" loading="lazy" referrer-policy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card-body">
+                <h5 class="card-title">Nuestra Ubicacion</h5>
+                <p>Puede encontrarnos en el siguiente mapa:</p>
+                <p><small class="text-muted">Es fácil ubicarnos</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <footer class="text-center text-white fixed-bottom bg-dark">
+    <div class="text-center p-3 text-secondary">
+      © 2023 Copyright:
+      <a class="text-secondary">Todos a la u - Universidad Distrital</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
