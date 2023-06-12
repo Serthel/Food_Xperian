@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1>Lista de Usuarios</h1>
+
+<ul>
+{% for objeto in object_list %}
+<li>{{ objeto }}</li>
+{% empty %}
+<li>No hay objetos</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
+

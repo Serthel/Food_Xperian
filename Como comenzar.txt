@@ -1,0 +1,15 @@
+En el caso de Frontend 
+
+1  ............   Ubicarnos en el carpeta Frontend/Actividad_Frontend
+2  ............   Abrir una consola o termina aputando esa direccion
+3  ............   Ejecutar el comando  npm start
+4  ............   En el navegador ingresar a la direccion http://localhost:3000/
+
+
+En el caso de Backend  
+
+1  ............   Ubicarnos en el carpeta Backend
+2  ............   Activar el entorno virtual 
+3  ............   Debemos ubicarnos en la carpeta foodxperianBackend  a traves de una consola o terminal
+4  ............   Ejecutar el comando py manage.py runserver 4200
+5  ............   En el navegador ingresar a la direccion http://localhost:4200/

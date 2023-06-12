@@ -42,8 +42,20 @@
                 <li><a class="dropdown-item" href="#Servicio">Que puedes encontrar</a></li>
                 <li><a class="dropdown-item" href="#nuestro_local">Nuestro Lugar</a></li>
                 <li><a class="dropdown-item" href="#Contacto">Contactanos</a></li>
-                <li><a class="dropdown-item" href="#Ubicacion">Ubicacion</a></li>
+                <li><a class="dropdown-item" href="#ubicacion">Ubicacion</a></li>
               </ul>
+            </li>
+
+          </ul>
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:3000/html/Autenticacion/Login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registro">l</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:3000/html/Autenticacion/Registro_Usuario.html">Registrarse</a>
             </li>
           </ul>
         </div>
@@ -251,29 +263,29 @@
               </div>
             </div>
             <div class="col-sm-0 col-md-5 col-lg-5">
-              <form>
+              <form id="Registrar_Mensaje">
                 <div class="form-row">
                   <div class="form-group col-md-12">
                     <label for="validationDefault01">Nombres</label>
-                    <input type="text" class="form-control" id="validationDefault01" placeholder=" " required>
+                    <input type="text" class="form-control" id="nombres" placeholder=" " required>
                   </div>
                   <div class="form-group col-md-12">
                     <label for="validationDefault02">Apellidos</label>
-                    <input type="text" class="form-control" id="validationDefault02" placeholder=" " required>
+                    <input type="text" class="form-control" id="apellidos" placeholder=" " required>
                   </div>
                   <div class="form-group col-md-12">
                     <label for="validationDefaultUsername">Correo</label>
-                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder=" "
+                    <input type="text" class="form-control" id="correo" placeholder=" "
                       aria-describedby="inputGroupPrepend2" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label for="validationDefault03">Celular</label>
-                    <input type="text" class="form-control" id="validationDefault03" placeholder=" " required>
+                    <input type="text" class="form-control" id="celular" placeholder=" " required>
                   </div>
                   <label for="exampleFormControlTextarea1">Mensaje</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control" id="mensaje" rows="3"></textarea>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
                     <label class="form-check-label" for="invalidCheck2">
                       Aceptar condiciones manejo de datos personales
                     </label>
@@ -331,6 +343,16 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- Agrega el enlace a la biblioteca SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+
+  <!-- Agrega los estilos de SweetAlert -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+
+  <script src="js/Registrar_Mensaje.js"></script>
 </body>
 
 </html>
