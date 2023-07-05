@@ -11,7 +11,7 @@ class DatoDomicilio(models.Model):
     descripcionDomicilio = models.CharField(max_length=200,verbose_name='Descripcion Domicilio',default= ' ')
 
     def __str__(self):
-        return f'{self.ciudad}'
+        return f'{self.id} {self.ciudad} {self.localidad} {self.barrio} {self.direccion} {self.descripcionDomicilio}'
 
     class Meta:
         verbose_name ='Dato Domicilio'

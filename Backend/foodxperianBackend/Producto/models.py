@@ -13,7 +13,7 @@ class Producto(models.Model):
     date_created = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return f'Producto ({self.id}): {self.nombreProducto} {self.precio}'
+        return f'Producto ({self.id}): {self.nombreProducto} {self.descripcion} {self.precio} {self.date_created}'
 
     def formatted_date_created(self):
         return self.date_created.strftime('%Y-%B-%d %H:%M:%S')
